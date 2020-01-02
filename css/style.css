@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../QFieldWebsite.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	/*to move text down */
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+	/*side to side*/
+
+}
+/* to show where you are /in home/*/
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li a:hover{
+	/*to change the color and shadow when click on text*/
+	background-color: #fff;
+	color: #000;
+
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-20%,-50%);
+}
+.title h1{
+	color: #000;
+	font-size: 100px;
+
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	/*to make them as a regtangle*/
+	padding: 5px 20px;
+	border:2px transparent;
+	transition: 0.5s;
+	position: top;
+	font-style: italic;
+}
+ol{
+	float: left;
+	list-style-type: none;
+	/*to move text down */
+	margin-top: 100px;
+
+}
+
+
+}/* to show where you are*/
+ol h2.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+ol h2 a{
+	text-decoration: none;
+	color: #fff;
+	/*to make them as a regtangle*/
+	padding: 1px 20px;
+	border:0.5px solid:#fff;
+	transition: 0.5s;
+	font-size: 20px;
+	font-weight: lighter;
+	font-style: italic ;
+	font-variant: normal;
+
+}
+ol h2 a:hover{
+	/*to change the color and shadow when click on text*/
+	background-color: #fff;
+	color: #000;
+}
